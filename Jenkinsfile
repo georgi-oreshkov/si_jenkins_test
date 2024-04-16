@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build the Go application
-                sh 'go build -o myapp'
+                sh 'go build -o si_jenkins/api'
             }
         }
         stage('Test') {
